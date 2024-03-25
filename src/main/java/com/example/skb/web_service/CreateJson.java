@@ -24,8 +24,6 @@ public class CreateJson {
 		OrderInformation order = new OrderInformation();
 		order.setId(ReformatJson.id());
 
-//		order = ReformatJson.orderInformation();
-
 		int id = order.getId();
 		double price = order.getPrice();
 		String date = order.getDate();
